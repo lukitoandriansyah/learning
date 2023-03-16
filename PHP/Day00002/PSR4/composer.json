@@ -1,0 +1,15 @@
+{
+    "name": "user/psr4",
+    "authors": [
+        {
+            "name": "Lukito Andriansyah",
+            "email": "lukitoandriansyah5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,68 @@
+body{
+    background: aquamarine;
+    font-family: "Garamond", "Kristen ITC", "Leelawadee UI", serif;
+
+}
+
+.toDoWrapper {
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: 250;
+
+}
+
+.toDoWrapper h2{
+    margin: 0;
+}
+
+.toDoWrapper p {
+    font-style: italic;
+    color: brown;
+    margin: 3px 0;
+}
+
+.toDoWrapper ol{
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.toDoWrapper ol li{
+    margin: 10px 0;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+}
+
+.toDoWrapper ol li .close{
+    position: absolute;
+    right: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.toDoWrapper form{
+    display: inline-block;
+}
+
+.toDoWrapper input{
+    padding: 3px 5px;
+}
+
+.toDoWrapper .previewButton:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.toDoWrapper .previewButton{
+    margin: 10px 5px;
+    color: bisque;
+    background-color: coral;
+    border-radius: 10px;
+    border: none;
+    padding: 7px 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+
+}
+
