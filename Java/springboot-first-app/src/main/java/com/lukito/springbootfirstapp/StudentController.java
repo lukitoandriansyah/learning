@@ -2,6 +2,7 @@ package com.lukito.springbootfirstapp;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -23,8 +24,13 @@ public class StudentController {
         return students;
 
     }
-    @GetMapping({"{firstName}/{lastName}"})
+    @GetMapping({"studentli/{firstName}/{lastName}"})
     public Student studentPathVariable(@PathVariable("firstName") String firstName1, @PathVariable("lastName") String lastName2){
         return new Student(firstName1, lastName2);
+    }
+
+    @GetMapping("/student")
+    public Student studentQueryParam(@RequestParam(name="firstName") String firstName, @RequestParam(name = "lastName") String lastName){
+        return new Student(firstName,lastName);
     }
 }
