@@ -24,11 +24,13 @@ public class StudentController {
         return students;
 
     }
+    //http://localhost:8080/student/lukito/itu
     @GetMapping({"studentli/{firstName}/{lastName}"})
     public Student studentPathVariable(@PathVariable("firstName") String firstName1, @PathVariable("lastName") String lastName2){
         return new Student(firstName1, lastName2);
     }
 
+    //http://localhost:8080/student?firstName=lukito&lastName=itu
     @GetMapping("/student")
     public Student studentQueryParam(@RequestParam(name="firstName") String firstName, @RequestParam(name = "lastName") String lastName){
         return new Student(firstName,lastName);
