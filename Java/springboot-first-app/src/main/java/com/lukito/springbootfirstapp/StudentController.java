@@ -1,6 +1,7 @@
 package com.lukito.springbootfirstapp;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -21,5 +22,9 @@ public class StudentController {
         students.add(new Student("Andrian", "Syah3"));
         return students;
 
+    }
+    @GetMapping({"{firstName}/{lastName}"})
+    public Student studentPathVariable(@PathVariable("firstName") String firstName1, @PathVariable("lastName") String lastName2){
+        return new Student(firstName1, lastName2);
     }
 }
