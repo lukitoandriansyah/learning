@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootWarDemo" />
   </component>
@@ -9,6 +10,7 @@
         <option value="$PROJECT_DIR$/Java/springboot-first-app/pom.xml" />
         <option value="$PROJECT_DIR$/Java/springBootWarDemo/pom.xml" />
         <option value="$PROJECT_DIR$/Java/springBootLombokDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/EmployeeManagementSystem/pom.xml" />
       </list>
     </option>
   </component>

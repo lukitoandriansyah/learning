@@ -8,11 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/Java/Learning/Learning.iml" filepath="$PROJECT_DIR$/Java/Learning/Learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/MySkill.iml" filepath="$PROJECT_DIR$/MySkill.iml" />
       <module fileurl="file://$PROJECT_DIR$/PHP.iml" filepath="$PROJECT_DIR$/PHP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Projects/Projects.iml" filepath="$PROJECT_DIR$/Java/Projects/Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python/Python.iml" filepath="$PROJECT_DIR$/Python/Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learning.iml" filepath="$PROJECT_DIR$/.idea/learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/springBootLombokDemo/springBootLombokDemo.iml" filepath="$PROJECT_DIR$/Java/springBootLombokDemo/springBootLombokDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/springBootWarDemo/springBootWarDemo.iml" filepath="$PROJECT_DIR$/Java/springBootWarDemo/springBootWarDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/springboot-first-app/springboot-first-app.iml" filepath="$PROJECT_DIR$/Java/springboot-first-app/springboot-first-app.iml" />
     </modules>
   </component>
 </project>

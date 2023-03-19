@@ -2,16 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springBootWarDemo" />
-        <module name="springBootLombokDemo" />
-        <module name="springboot-first-app" />
+        <module name="Projects" />
+        <module name="EmployeeManagementSystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Projects" target="19" />
       <module name="springboot-first-app" target="19" />
       <module name="SpringBootDemo" target="19" />
       <module name="springBootLombokDemo" target="19" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EmployeeManagementSystem" options="-parameters" />
       <module name="SpringBootDemo" options="-parameters" />
       <module name="springBootLombokDemo" options="-parameters" />
       <module name="springBootWarDemo" options="-parameters" />
