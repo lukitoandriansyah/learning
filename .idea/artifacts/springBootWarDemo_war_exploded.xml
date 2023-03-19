@@ -47,7 +47,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/Java/springBootWarDemo/target/springBootWarDemo-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootWarDemo/target/springBootWarDemo-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="springBootWarDemo/web/Web" />
     </root>
