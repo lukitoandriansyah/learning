@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springBootWarDemo" />
         <module name="springboot-first-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-first-app" target="19" />
       <module name="SpringBootDemo" target="19" />
+      <module name="springBootWarDemo" target="19" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBootDemo" options="-parameters" />
+      <module name="springBootWarDemo" options="-parameters" />
       <module name="springboot-first-app" options="-parameters" />
     </option>
   </component>
