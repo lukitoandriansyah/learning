@@ -1,0 +1,5 @@
+const fs = require("fs")
+const writeableStream = fs.createWriteStream("output.txt")
+writeableStream.write("Hallo \n")
+writeableStream.write("ini contoh saya \n")
+writeableStream.end("Ito")
