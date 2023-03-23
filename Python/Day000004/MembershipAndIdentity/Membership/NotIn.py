@@ -1,24 +1,15 @@
-list1 = [2, 3, 6, 4, 9]
-listCountEven = []
-listCountOdd = []
+# Python program to illustrate
+# not 'in' operator
+x = 24
+y = 20
+list = [10, 20, 30, 40, 50]
 
+if (x not in list):
+    print("x is NOT present in given list")
+else:
+    print("x is  present in given list")
 
-def countEvenOdd():
-    for i in list1:
-        if i % 2 == 0:
-            listCountEven.append(i)
-        if i % 2 != 0:
-            listCountOdd.append(i)
-
-
-def lengthList(lengthListEven, lengthListOdd):
-    if len(lengthListEven) != 0:
-        print("There's an even number in these list")
-    if len(lengthListOdd) != 0:
-        print("There's an odd number in these list")
-    else:
-        print("There's an odd or even number nn these list")
-
-
-countEvenOdd()
-lengthList(listCountEven, listCountOdd)
+if (y in list):
+    print("y is present in given list")
+else:
+    print("y is NOT present in given list")
