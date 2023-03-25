@@ -38,20 +38,16 @@ public class EmployeeController {
 
     //Build Update Employee
     @PutMapping("/{id}")
-    public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee , @PathVariable("id") Long employeeId){
+    public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee, @PathVariable("id") Long employeeId) {
         return new ResponseEntity<>(employeeService.updateEmployee(employee, employeeId), HttpStatus.OK);
     }
 
     //Build Delete Employee
-
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteEmployee(@PathVariable("id") Long employeeId){
+    public ResponseEntity<String> deleteEmployee(@PathVariable("id") Long employeeId) {
         employeeService.deleteEmployee(employeeId);
-        return new ResponseEntity<>("Data with id " +  employeeId + " was deleted successfully", HttpStatus.OK);
+        return new ResponseEntity<>("Data with id " + employeeId + " was deleted successfully", HttpStatus.OK);
     }
-
-
-
 
 
 }
