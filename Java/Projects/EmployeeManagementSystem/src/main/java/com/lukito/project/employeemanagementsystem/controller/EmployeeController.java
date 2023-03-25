@@ -36,5 +36,14 @@ public class EmployeeController {
         return new ResponseEntity<>(employeeService.getById(employeeId), HttpStatus.OK);
     }
 
+    //Build Update Employee
+    @PutMapping("/{id}")
+    public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee , @PathVariable("id") Long employeeId){
+        return new ResponseEntity<>(employeeService.updateEmployee(employee, employeeId), HttpStatus.OK);
+    }
+
+
+
+
 
 }
