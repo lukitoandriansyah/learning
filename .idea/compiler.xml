@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/producer-wikimedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-producer-wikimedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,10 +12,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Projects" />
+        <module name="producer-wikimedia" />
+        <module name="kafka-producer-wikimedia" />
         <module name="EmployeeManagementSystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="producer-wikimedia" target="19" />
       <module name="Projects" target="19" />
       <module name="springboot-first-app" target="19" />
       <module name="SpringBootDemo" target="19" />
@@ -23,6 +30,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EmployeeManagementSystem" options="-parameters" />
       <module name="SpringBootDemo" options="-parameters" />
+      <module name="kafka" options="" />
+      <module name="kafka-producer-wikimedia" options="-parameters" />
+      <module name="producer-wikimedia" options="-parameters" />
       <module name="springBootLombokDemo" options="-parameters" />
       <module name="springBootWarDemo" options="-parameters" />
       <module name="springboot-first-app" options="-parameters" />
