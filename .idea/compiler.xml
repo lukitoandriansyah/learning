@@ -4,6 +4,7 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/producer-wikimedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-producer-wikimedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-consumer-database/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -14,6 +15,7 @@
         <module name="Projects" />
         <module name="producer-wikimedia" />
         <module name="kafka-producer-wikimedia" />
+        <module name="kafka-consumer-database" />
         <module name="EmployeeManagementSystem" />
       </profile>
     </annotationProcessing>
@@ -31,6 +33,7 @@
       <module name="EmployeeManagementSystem" options="-parameters" />
       <module name="SpringBootDemo" options="-parameters" />
       <module name="kafka" options="" />
+      <module name="kafka-consumer-database" options="-parameters" />
       <module name="kafka-producer-wikimedia" options="-parameters" />
       <module name="producer-wikimedia" options="-parameters" />
       <module name="springBootLombokDemo" options="-parameters" />
