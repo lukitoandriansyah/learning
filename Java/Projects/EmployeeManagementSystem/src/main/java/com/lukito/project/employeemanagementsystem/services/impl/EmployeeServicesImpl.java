@@ -67,4 +67,16 @@ public class EmployeeServicesImpl implements EmployeeService {
          throw new ResourceNotFoundException("Employee", "Id", id);
         }
     }
+
+    @Override
+    public void deleteEmployee(Long id) {
+        Optional <Employee> optionalEmployee = employeeRepository.findById(id);
+        if (optionalEmployee.isPresent()){
+            employeeRepository.deleteById(id);
+        }else {
+            throw new ResourceNotFoundException("Employee", "Id", id);
+        }
+    }
+
+
 }
