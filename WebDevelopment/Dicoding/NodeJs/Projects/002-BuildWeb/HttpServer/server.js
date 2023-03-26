@@ -15,16 +15,22 @@ const requestListener = (request, response) => {
     if(url==="/"){
         if (method==="GET"){
             response.statusCode=200
-            response.end(`<h1>This is Home Page</h1>`)
+            //Change response end be jason format
+            //response.end(`<h1>This is Home Page</h1>`)
+            response.end(JSON.stringify({message:"This is Home Page"}))
         }else {
             response.statusCode=400
-            response.end(`<h1>${respCanNotAccess} with method ${method}</h1>`)
+            //Change response end be jason format
+            //response.end(`<h1>${respCanNotAccess} with method ${method}</h1>`)
+            response.end(JSON.stringify({message:`${respCanNotAccess} with method ${method}`}))
         }
 
     }else if (url==="/about"){
         if (method==="GET"){
             response.statusCode=200
-            response.end(`<h1>This is About Page</h1>`)
+            //Change response end be jason format
+            //response.end(`<h1>This is About Page</h1>`)
+            response.end(JSON.stringify({message:"This is About Page"}))
         }else if (method==="POST"){
             //add stream logic to add body
             let body = [];
@@ -37,16 +43,22 @@ const requestListener = (request, response) => {
                 //const {name} = JSON.parse(body)
                 const arrBody = JSON.parse(body)
                 response.statusCode=200
-                response.end(`<h1>Hai, ${arrBody.name}! This is an about page</h1>`)
+                //Change response end be jason format
+                //response.end(`<h1>Hai, ${arrBody.name}! This is an about page</h1>`)
+                response.end(JSON.stringify({message:`Hai, ${arrBody.name}! This is an about page`}))
             })
         }else {
             response.statusCode=400
-            response.end(`<h1>${respCanNotAccess} with method ${method}</h1>`)
+            //Change response end be jason format
+            //response.end(`<h1>${respCanNotAccess} with method ${method}</h1>`)
+            response.end(JSON.stringify({message:`${respCanNotAccess} with method ${method}`}))
         }
 
     }else {
         response.statusCode=404
-        response.end(`<h1>${respNotFound}</h1>`)
+        //Change response end be jason format
+        //response.end(`<h1>${respNotFound}</h1>`)
+        response.end(JSON.stringify({message: respNotFound}))
     }
 
     /*if (method === "GET") {
