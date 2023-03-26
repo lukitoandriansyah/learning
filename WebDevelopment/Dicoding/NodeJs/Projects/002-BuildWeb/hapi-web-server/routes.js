@@ -33,6 +33,10 @@ const routes = [
         handler: (request, h) => {
             const {user="stranger"} = request.params
             const {lang}=request.query
+            const resp = h.response("success")
+            resp.type("text/plain")
+            resp.header("X-Custom", "some-value")
+
 
             if (lang==="id"){
                 return `Hai, ${user}`
