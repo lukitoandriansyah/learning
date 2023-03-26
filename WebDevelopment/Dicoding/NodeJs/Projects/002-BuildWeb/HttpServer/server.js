@@ -7,7 +7,10 @@ const requestListener = (request, response) => {
     const respCanNotAccess = "PAGE CAN NOT ACCESSED"
     //alternatively
     //const {method, url} = request
-    response.setHeader("Content-Type", "text/html")
+    //response header changed
+    //response.setHeader("Content-Type", "text/html")
+    response.setHeader("Content-Type", "application/json")
+    response.setHeader("X-Powered-By", "NodeJS")
 
     if(url==="/"){
         if (method==="GET"){
