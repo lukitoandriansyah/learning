@@ -31,8 +31,8 @@ const routes = [
         method: "GET",
         path: "/hello/{user?}",
         handler: (request, h) => {
-            const {name="stranger"} = request.params
-            return `Hello, ${name}`
+            const {user="stranger"} = request.params
+            return `Hello, ${user}`
         }
     },
     {
