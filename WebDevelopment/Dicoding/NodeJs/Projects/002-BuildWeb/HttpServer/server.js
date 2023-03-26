@@ -10,16 +10,30 @@ const requestListener = (request, response) => {
     }
 
     if (method === "POST") {
-        response.end(`<h1>This is an HTTP SERVER Response ${method}!</h1>`)
+        //add stream logic to add body
+        let body = [];
+        request.on("data", (chunk)=>{
+            body.push(chunk)
+        })
+
+        request.on("end", ()=>{
+            body = Buffer.concat(body).toString();
+            //const {name} = JSON.parse(body)
+            const arrBody = JSON.parse(body)
+            response.end(`<h1>This is an HTTP SERVER Response ${arrBody.name}!</h1>`)
+        })
+
     }
 
-    if (method === "PUT") {
+    /*if (method === "PUT") {
         response.end(`<h1>This is an HTTP SERVER Response ${method}!</h1>`)
     }
 
     if (method === "DELETE") {
         response.end(`<h1>This is an HTTP SERVER Response ${method}!</h1>`)
-    }
+    }*/
+
+
 }
 
 const server = http.createServer(requestListener)
