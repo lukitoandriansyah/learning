@@ -10,3 +10,7 @@ Technology:
     => npm install eslint --save-dev
     //Configuration
     => npx eslint --init
+- Hapi
+    => npm install @hapi/hapi
+- nanoid
+    => npm install nanoid@3.x.x
