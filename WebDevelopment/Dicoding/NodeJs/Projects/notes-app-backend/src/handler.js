@@ -96,4 +96,25 @@ const editData = (request, h) => {
     return resp
 }
 
-module.exports = {addNotesHandler, getAllNotes, getNoteById, editData};
+const deleteNote=(request, h)=>{
+    const {id} = request.params;
+    const index =notes.findIndex((note)=>note.id ===id)
+    if(index !==-1){
+        notes.splice(index,1);
+        const response = h.response({
+            status:"Success",
+            message: "Notes delete successfully"
+        });
+        response.code(200)
+        return response
+    }
+
+    const resp = h.response({
+        status: "Failed",
+        message: "Failed to delete data. Id was Not found"
+    })
+    resp.code(404)
+    return resp
+}
+
+module.exports = {addNotesHandler, getAllNotes, getNoteById, editData, deleteNote};
