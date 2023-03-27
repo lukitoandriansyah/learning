@@ -64,4 +64,36 @@ const getNoteById = (request, h) =>{
     return resp
 }
 
-module.exports = {addNotesHandler, getAllNotes, getNoteById};
+const editData = (request, h) => {
+  const {id}=request.params
+    const {title, tags, body} = request.payload
+    const updatedAt = new Date().toISOString()
+    const index = notes.findIndex((note)=>note.id ===id)
+
+    if(index !== -1){
+        notes[index] = {
+            ...notes[index],
+            title,
+            tags,
+            body,
+            updatedAt
+        }
+
+        const resp = h.response({
+            status:"Success",
+            message:"Data was updated successfully"
+
+        })
+        resp.code(200)
+        return resp
+    }
+
+    const resp = h.response({
+        status:"Failed",
+        message:"Failed to updated Data, Id was not found"
+    })
+    resp.code(404);
+    return resp
+}
+
+module.exports = {addNotesHandler, getAllNotes, getNoteById, editData};
