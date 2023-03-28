@@ -1,5 +1,3 @@
-package com.lukito.springbootfirstapp;
-
 public class Student {
     private String firstName;
     private String lastNAme;

@@ -1,4 +1,4 @@
-package com.lukito.springbootwardemo;
+package SpringBoot.springBootWarDemo.src.test.java.com.lukito.springbootwardemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

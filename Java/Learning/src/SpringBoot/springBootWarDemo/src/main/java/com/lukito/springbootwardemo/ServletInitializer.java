@@ -1,4 +1,4 @@
-package com.lukito.springbootwardemo;
+package SpringBoot.springBootWarDemo.src.main.java.com.lukito.springbootwardemo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

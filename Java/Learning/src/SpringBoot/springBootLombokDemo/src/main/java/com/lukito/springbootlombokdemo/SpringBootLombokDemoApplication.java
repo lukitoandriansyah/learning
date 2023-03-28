@@ -1,4 +1,4 @@
-package com.lukito.springbootlombokdemo;
+package SpringBoot.springBootLombokDemo.src.main.java.com.lukito.springbootlombokdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
