@@ -14,3 +14,5 @@ Technology:
     => npm install @hapi/hapi
 - nanoid
     => npm install nanoid@3.x.x
+- newman
+    => npm install newman
