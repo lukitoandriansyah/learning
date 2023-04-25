@@ -1,0 +1,17 @@
+To convert sound to frequency in Java, you can use Fast Fourier Transform 
+(FFT) algorithm¹. The first step is to read the audio file and convert it 
+into an array of samples³. Then you can apply FFT to this array of samples 
+to get the frequency domain representation of the audio signal¹. You can 
+then calculate the frequency in Hz by finding the index of the maximum 
+value in the FFT output array and multiplying it by the sampling rate 
+divided by the length of the array¹. Finally, you can write this frequency 
+value to a file³.
+
+I hope that helps. Let me know if you have any other questions!
+
+Source: Conversation with Bing, 3/31/2023(1) Java: How to get current 
+frequency of audio input?. https://stackoverflow.com/questions/53997426/java-how-to-get-current-frequency-of-audio-input Accessed 3/31/2023.
+(2) How to convert WAV audio to frequency file in JAVA?. 
+https://www.codeproject.com/Questions/1216592/How-to-convert-WAV-audio-to-frequency-file-in-JAVA Accessed 3/31/2023.
+(3) audio - Sine Wave Sound Generator in 
+Java - Stack Overflow. https://stackoverflow.com/questions/8632104/sine-wave-sound-generator-in-java Accessed 3/31/2023.

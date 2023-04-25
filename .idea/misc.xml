@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-rest-api" />
     <file type="web" url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootWarDemo" />
   </component>
   <component name="MavenProjectsManager">
@@ -12,7 +13,13 @@
         <option value="$PROJECT_DIR$/Java/springBootLombokDemo/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Projects/EmployeeManagementSystem/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Projects/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Learning/springboot-rest-api/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-rest-api/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">

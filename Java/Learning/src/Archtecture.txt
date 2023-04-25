@@ -1,0 +1,23 @@
+Hexaginal architeture: Architecture in software develoment that separated domain with apllication or insfrastructure. But, them can connect each
+                       other throught port and adapter. So this why hexagonal architectur as known as port-adapter architecture.
+
+Refrence: 
+- https://www.baeldung.com/hexagonal-architecture-ddd-spring
+- https://medium.com/javarevisited/hands-on-hexagonal-architecture-with-spring-boot-ca61f88bed8b
+
+
+Log4j: Logging framework that open source whic developed by apache.
+Refrence:
+- https://medium.com/javarevisited/logging-in-java-log4j-vs-logback-vs-slf4j-88c533088d2a
+
+
+Tdd: Test Driven Development (TDD) adalah pengembangan yang mengacu pada testing sebelum melakukan proses coding.
+refrence: 
+- https://www.binaracademy.com/blog/test-driven-development-tdd-adalah
+
+Unit Test: Pengujian tiap class dan method secara bersamaan
+refrence: 
+- https://www.javatpoint.com/how-to-write-test-cases-in-java
+
+
+
