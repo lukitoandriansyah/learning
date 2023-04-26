@@ -1,7 +1,6 @@
 package com.ito.springbootrestfulwebservices.controller;
 
 import com.ito.springbootrestfulwebservices.dto.UserDto;
-import com.ito.springbootrestfulwebservices.entity.User;
 import com.ito.springbootrestfulwebservices.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
