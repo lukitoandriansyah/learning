@@ -2,6 +2,7 @@ package com.ito.departmentservices.service.impl;
 
 import com.ito.departmentservices.dto.DepartmentDto;
 import com.ito.departmentservices.entity.Department;
+import com.ito.departmentservices.exception.ResourceNotFoundException;
 import com.ito.departmentservices.mapper.AutoDepartmentMapper;
 import com.ito.departmentservices.repository.DepartmentRepository;
 import com.ito.departmentservices.service.DepartmentService;
@@ -46,6 +47,9 @@ public class ServiceImpl implements DepartmentService {
     @Override
     public DepartmentDto getDepartmentByCode(String departmentCode) {
         Department department = departmentRepository.findByDepartmentCode(departmentCode);
+        if(department==null){
+            throw new ResourceNotFoundException("Department", "Dept Code", departmentCode);
+        }
         /*DepartmentDto departmentDto = new DepartmentDto(
                 department.getId(),
                 department.getDepartmentName(),
