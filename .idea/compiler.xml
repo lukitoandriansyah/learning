@@ -14,7 +14,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="producer-wikimedia" />
         <module name="kafka-consumer-database" />
+        <module name="department-services" />
         <module name="Projects" />
+        <module name="employee-services" />
         <module name="kafka-producer-wikimedia" />
         <module name="EmployeeManagementSystem" />
         <module name="springboot-rest-api" />
@@ -45,6 +47,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EmployeeManagementSystem" options="-parameters" />
       <module name="SpringBootDemo" options="-parameters" />
+      <module name="department-services" options="-parameters" />
+      <module name="employee-services" options="-parameters" />
       <module name="kafka" options="" />
       <module name="kafka-consumer-database" options="-parameters" />
       <module name="kafka-producer-wikimedia" options="-parameters" />

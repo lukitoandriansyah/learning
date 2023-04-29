@@ -16,6 +16,12 @@
         <option value="$PROJECT_DIR$/Java/Learning/springboot-rest-api/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Learning/springboot-restful-webservices/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Projects/springboot-restful-webservices/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/department-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Department-Services/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/Department-Services/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/Employee-Services/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/employee-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/PHP.iml" filepath="$PROJECT_DIR$/PHP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Projects/Projects.iml" filepath="$PROJECT_DIR$/Java/Projects/Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Python/Python.iml" filepath="$PROJECT_DIR$/Python/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/department-services.iml" filepath="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/department-services.iml" />
     </modules>
   </component>
 </project>
