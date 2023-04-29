@@ -4,5 +4,5 @@ import com.ito.departmentservices.dto.DepartmentDto;
 
 public interface DepartmentService {
     DepartmentDto saveDepartment(DepartmentDto departmentDto);
-    DepartmentDto getDEpartmentByCode(String departmentCode);
+    DepartmentDto getDepartmentByCode(String departmentCode);
 }
