@@ -9,6 +9,6 @@ import org.mapstruct.factory.Mappers;
 public interface AutoDepartmentMapper {
 
     AutoDepartmentMapper MAPPER = Mappers.getMapper(AutoDepartmentMapper.class);
-    DepartmentDto departmentToDepartmentDto(Department department);
-    Department departmentDtoToDepartment(DepartmentDto departmentDto);
+    DepartmentDto mapToDepartmentDto(Department department);
+    Department mapToDepartment(DepartmentDto departmentDto);
 }

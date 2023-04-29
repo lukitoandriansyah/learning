@@ -28,7 +28,8 @@ public class ServiceImpl implements DepartmentService {
                 departmentDto.getDepartmentCode()
         );*/
 
-        Department department = modelMapper.map(departmentDto, Department.class);
+        //Department department = modelMapper.map(departmentDto, Department.class);
+        Department department = AutoDepartmentMapper.MAPPER.mapToDepartment(departmentDto);
         Department saveDepartment = departmentRepository.save(department);
 
         /*DepartmentDto saveDepartmentDto = new DepartmentDto(
@@ -37,10 +38,9 @@ public class ServiceImpl implements DepartmentService {
                 saveDepartment.getDepartmentDescription(),
                 saveDepartment.getDepartmentCode()
         );*/
-        //DepartmentDto saveDepartmentDto = AutoDepartmentMapper.MAPPER.departmentToDepartmentDto(saveDepartment);
-        DepartmentDto saveDepartmentDto = modelMapper.map(saveDepartment, DepartmentDto.class);
+        //DepartmentDto saveDepartmentDto = modelMapper.map(saveDepartment, DepartmentDto.class);
 
-        return saveDepartmentDto;
+        return AutoDepartmentMapper.MAPPER.mapToDepartmentDto(saveDepartment);
     }
 
     @Override
@@ -53,9 +53,8 @@ public class ServiceImpl implements DepartmentService {
                 department.getDepartmentCode()
         );*/
 
-        //DepartmentDto departmentDto = AutoDepartmentMapper.MAPPER.departmentToDepartmentDto(department);
-        DepartmentDto departmentDto = modelMapper.map(department, DepartmentDto.class);
+        //DepartmentDto departmentDto = modelMapper.map(department, DepartmentDto.class);
 
-        return departmentDto;
+        return AutoDepartmentMapper.MAPPER.mapToDepartmentDto(department);
     }
 }
