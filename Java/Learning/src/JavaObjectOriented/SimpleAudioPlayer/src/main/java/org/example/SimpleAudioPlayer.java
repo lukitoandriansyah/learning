@@ -1,4 +1,4 @@
-package JavaObjectOriented.SimpleAudioPlayer.src.main.java.org.example;
+package org.example;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,25 +11,25 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 
 public class SimpleAudioPlayer extends Option {
 
-    public SimpleAudioPlayer() throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        audioInputStream = AudioSystem.getAudioInputStream(new File(filePath).getAbsoluteFile());
+    public SimpleAudioPlayer(String pathName) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
+        audioInputStream = AudioSystem.getAudioInputStream(new File(pathName).getAbsoluteFile());
         clip = AudioSystem.getClip();
         clip.open(audioInputStream);
         clip.loop(Clip.LOOP_CONTINUOUSLY);
 
     }
 
-    private void optionMenu(int inputOption) throws IOException, LineUnavailableException, UnsupportedAudioFileException {
+    private void optionMenu(int inputOption, String pathName) throws IOException, LineUnavailableException, UnsupportedAudioFileException {
         switch (inputOption) {
             case 1 -> pause();
-            case 2 -> resumeAudio();
-            case 3 -> restart();
+            case 2 -> resumeAudio(pathName);
+            case 3 -> restart(pathName);
             case 4 -> stop();
             case 5 -> {
                 System.out.println("Enter time (" + 0 + ", " + clip.getMicrosecondLength() + ")");
                 Scanner scanner = new Scanner(System.in);
                 long input = scanner.nextLong();
-                jump(input);
+                jump(input,pathName);
             }
         }
 
@@ -38,11 +38,11 @@ public class SimpleAudioPlayer extends Option {
 
     public static void main(String[] args) {
 
-        Data data = new Data();
-
         try {
-            data.filePath = "D:/upload music/Arc Revise without piano.wav";
-            SimpleAudioPlayer simpleAudioPlayer = new SimpleAudioPlayer();
+            Data data = new Data();
+            data.filePath = "D://thankYouMyFriend/Raw_music_thank_you_my_friend.wav";
+            System.out.println(data.filePath);
+            SimpleAudioPlayer simpleAudioPlayer = new SimpleAudioPlayer(data.filePath);
             simpleAudioPlayer.play();
             Scanner scanner = new Scanner(System.in);
 
@@ -55,7 +55,7 @@ public class SimpleAudioPlayer extends Option {
                 System.out.println("5. Jump to specific");
 
                 int c = scanner.nextInt();
-                simpleAudioPlayer.optionMenu(c);
+                simpleAudioPlayer.optionMenu(c, data.filePath);
                 if (c == 4) {
                     break;
                 }

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6391147b-ad22-4154-9e69-20366066b764" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/src/main/java/com/ito/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/api-gateway/src/test/java/com/ito/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/src/main/java/com/ito/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/config-server/src/test/java/com/ito/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/dto/ApiResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/dto/DepartmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/service/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/src/main/java/com/ito/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/service-registry/src/test/java/com/ito/serviceregistry/ServiceRegistryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleAudioPlayer/src/main/java/org/example/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAudioPlayer/src/main/java/org/example/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleAudioPlayer/src/main/java/org/example/SimpleAudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAudioPlayer/src/main/java/org/example/SimpleAudioPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/department-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/department-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/department-services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/department-services/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/EmployeeServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/EmployeeServicesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/dto/EmployeeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/dto/EmployeeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/java/com/ito/employeeservices/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projects/microservices/employee-management-system/employee-services/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RIkNrCgO4AKbpnOXM0i3GabvE5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Learning/Self_Learning/learning/Java/Learning/src/JavaObjectOriented",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6391147b-ad22-4154-9e69-20366066b764" name="Changes" comment="" />
+      <created>1686944947210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686944947210</updated>
+      <workItem from="1686944948399" duration="379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

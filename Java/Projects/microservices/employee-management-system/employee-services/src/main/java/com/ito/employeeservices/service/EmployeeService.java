@@ -1,8 +1,9 @@
 package com.ito.employeeservices.service;
 
+import com.ito.employeeservices.dto.ApiResponseDto;
 import com.ito.employeeservices.dto.EmployeeDto;
 
 public interface EmployeeService {
     EmployeeDto saveEmployee(EmployeeDto employeeDto);
-    EmployeeDto getEmployeeById(Long id);
+    ApiResponseDto getEmployeeById(Long id);
 }

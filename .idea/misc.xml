@@ -22,6 +22,11 @@
         <option value="$PROJECT_DIR$/Java/Projects/Employee-Services/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/employee-services/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/Api-Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/api-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

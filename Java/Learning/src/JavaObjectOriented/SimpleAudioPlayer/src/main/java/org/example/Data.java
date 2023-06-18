@@ -1,4 +1,4 @@
-package JavaObjectOriented.SimpleAudioPlayer.src.main.java.org.example;
+package org.example;
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.Clip;
