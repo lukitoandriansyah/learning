@@ -1,69 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/producer-wikimedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-producer-wikimedia/src/main/resources/archetype-resources" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-consumer-database/src/main/resources/archetype-resources" includeSubdirectories="true" />
-    </excludeFromCompile>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springBootWarDemo (2)" />
+        <module name="springBootWarDemo (1)" />
+        <module name="springBootLombokDemo (2)" />
+        <module name="department-service" />
+        <module name="springBootLombokDemo (1)" />
+        <module name="AudioPlayer" />
+        <module name="microservices" />
+        <module name="employee-service" />
         <module name="config-server" />
-        <module name="producer-wikimedia" />
-        <module name="kafka-consumer-database" />
+        <module name="springboot-restful-webservices" />
+        <module name="springboot-first-app (2)" />
+        <module name="springboot-first-app (1)" />
         <module name="api-gateway" />
-        <module name="Projects" />
-        <module name="kafka-producer-wikimedia" />
-        <module name="EmployeeManagementSystem" />
+        <module name="organization-service" />
         <module name="springboot-rest-api" />
+        <module name="EmployeeManagementSystem" />
         <module name="service-registry" />
       </profile>
-      <profile name="Annotation profile for springboot-restful-webservices" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for kafka" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
-        </processorPath>
-        <module name="springboot-restful-webservices" />
-        <module name="employee-services" />
-        <module name="department-services" />
+        <module name="kafka-consumer-database" />
+        <module name="kafka-producer-wikimedia" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="producer-wikimedia" target="19" />
-      <module name="Projects" target="19" />
-      <module name="springboot-first-app" target="19" />
-      <module name="SpringBootDemo" target="19" />
-      <module name="springBootLombokDemo" target="19" />
-      <module name="springBootWarDemo" target="19" />
+      <module name="springboot-first-app" target="1.5" />
+      <module name="springBootLombokDemo" target="1.5" />
+      <module name="springBootWarDemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="EmployeeManagementSystem" options="-parameters" />
-      <module name="SpringBootDemo" options="-parameters" />
-      <module name="api-gateway" options="-parameters" />
-      <module name="config-server" options="-parameters" />
-      <module name="department-services" options="-parameters" />
-      <module name="employee-services" options="-parameters" />
-      <module name="kafka" options="" />
-      <module name="kafka-consumer-database" options="-parameters" />
-      <module name="kafka-producer-wikimedia" options="-parameters" />
-      <module name="producer-wikimedia" options="-parameters" />
-      <module name="service-registry" options="-parameters" />
-      <module name="springBootLombokDemo" options="-parameters" />
-      <module name="springBootWarDemo" options="-parameters" />
-      <module name="springboot-first-app" options="-parameters" />
+      <module name="springBootLombokDemo (1)" options="-parameters" />
+      <module name="springBootLombokDemo (2)" options="-parameters" />
+      <module name="springBootWarDemo (1)" options="-parameters" />
+      <module name="springBootWarDemo (2)" options="-parameters" />
+      <module name="springboot-first-app (1)" options="-parameters" />
+      <module name="springboot-first-app (2)" options="-parameters" />
       <module name="springboot-rest-api" options="-parameters" />
-      <module name="springboot-restful-webservices" options="-parameters" />
     </option>
   </component>
 </project>

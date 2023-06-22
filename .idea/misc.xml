@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-rest-api" />
-    <file type="web" url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootWarDemo" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Java/springboot-first-app/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/springBootWarDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/springBootLombokDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/EmployeeManagementSystem/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/out/production/Learning/SpringBoot/springBootWarDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/out/production/Learning/SpringBoot/springboot-first-app/pom.xml" />
+        <option value="$PROJECT_DIR$/out/production/Learning/SpringBoot/springBootLombokDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootWarDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-first-app/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootLombokDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Learning/src/JavaObjectOriented/SimpleAudioPlayer/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Learning/springboot-rest-api/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Learning/springboot-restful-webservices/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/microservices/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/EmployeeManagementSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/employee-management-system/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/employee-management-system/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/employee-management-system/employee-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/employee-management-system/service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/employee-management-system/department-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Java/Projects/employee-management-system/organization-service/pom.xml" />
         <option value="$PROJECT_DIR$/Java/Projects/springboot-restful-webservices/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/department-services/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Department-Services/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/Department-Services/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/Employee-Services/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/employee-services/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/service-registry/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/service-registry/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/Api-Gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/api-gateway/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-rest-api/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">

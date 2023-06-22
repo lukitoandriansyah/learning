@@ -2,32 +2,29 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Java/Learning/springboot-rest-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Learning/src/JavaObjectOriented/SimpleAudioPlayer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Learning/src/JavaObjectOriented/SimpleAudioPlayer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootLombokDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springBootWarDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-first-app/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Learning/src/SpringBoot/springboot-rest-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/EmployeeManagementSystem/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-consumer-database/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/kafka/kafka-producer-wikimedia/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/kafka/producer-wikimedia/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/department-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/department-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/employee-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/employee-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/organization-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/organization-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/service-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/employee-management-system/service-registry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java/Projects/kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java/Projects/kafka/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/api-gateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/api-gateway/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/config-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/config-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/department-services/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/employee-services/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/employee-services/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/service-registry/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/employee-management-system/service-registry/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/service-registry/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/springboot-restful-webservices/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/springboot-restful-webservices/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/Projects/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/SpringBootDemo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Java/SpringBootDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java/Projects/microservices/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/out/production/Learning/SpringBoot/springBootLombokDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/out/production/Learning/SpringBoot/springBootWarDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/out/production/Learning/SpringBoot/springboot-first-app/src/main/java" charset="UTF-8" />
   </component>
 </project>
